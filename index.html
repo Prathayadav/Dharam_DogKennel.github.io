@@ -12,15 +12,7 @@
   </head>
   <body>
    
-    <nav>
-        <ul>
-
-            <li><img src="logo.jpg" alt="logo"></li>
-            <li><a href="">Dharam DogKennel</a></li>
-          
-
-        </ul>
-    </nav>
+    
   
 
     <div class="alert alert-primary alert-dismissible" role="alert" id="liveAlert">
@@ -28,6 +20,13 @@
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 
+    <div id="first">
+      
+        <img src="logo.jpg" alt="">
+        <h1 onclick="play()" >Dharam DogKennel  </h1>  
+    </div>
+    
+    <audio id="audio" src="Puppy-barking.mp3"></audio>
     <img class="images"src="papaimg.jpg" width=500 height=400 align="left">
 <p class="heading"align="right"> <font 10>About Us!!</font></p>
 <p class="content" align="right"> <font 5>There are numerous adorable fur babies who are waiting to have their home. You can be their home. One can easily purchase puppies overnight with Dharam dogkennel. All puppies are different.
@@ -43,44 +42,7 @@
     <br clear="right" >
     <br>
     
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -91,6 +53,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     -->
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
     
   </body>
 </html>
