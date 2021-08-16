@@ -135,7 +135,50 @@ nav ul li a{
         margin-left: 5%;
         margin-right: 5%;
     }
-    .images{
+    #first{
+        width: 100%;
+        height: 10%;
         
+       
     
+    }
+    #first h1{
+        
+        background: gray;
+        width: 50%;
+        color: honeydew;
+        text-align: right;
+        
+            font-family: Freestyle Script;
+            font-size: xx-large;
+           
+            
+        
+    }
+    #first h1:hover{
+        
+        background: rgb(0, 0, 0);
+        width: 55%;
+        color: rgb(123, 229, 255);
+        text-align: right;
+        
+            font-family: Freestyle Script;
+            font-size:250%;
+           
+            
+        
+    }
+    #first img{
+        margin-left: 35%;
+        margin-right: 25%;
+        width: 40%;
+        height: 10%;
+        border-radius: 50%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        
+    }
+    
+    body{
+        background: gainsboro;
     }
